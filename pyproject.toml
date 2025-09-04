@@ -1,0 +1,20 @@
+﻿[tool.black]
+line-length = 100
+target-version = ["py312"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.flake8]
+max-line-length = 100
+extend-ignore = [
+  "E203",  # black-compatible slicing
+  "E266",
+  "E501",  # long lines (let black handle)
+  "W503",
+  "F401",  # unused imports (we'll clean later)
+  "W391",  # blank line at end
+  "E402",  # module import at top (relaxed for app)
+  "E305",  # 2 blank lines after defs (relaxed)
+]

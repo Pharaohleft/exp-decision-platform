@@ -1,0 +1,9 @@
+﻿user_id,variant,converted,revenue,pre_metric,country,device
+1,A,0,0,2.1,US,web
+2,A,1,12.5,3.0,US,ios
+3,A,0,0,1.2,IN,android
+4,B,1,15.0,3.4,US,web
+5,B,0,0,0.7,BR,web
+6,B,1,9.9,4.2,DE,ios
+7,A,1,8.0,2.7,US,web
+8,B,0,0,1.1,IN,android
